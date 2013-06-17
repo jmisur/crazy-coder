@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CBase">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{704c7a08-6c72-421d-99a6-db163d5c2984}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\Defines.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CBaseEntity.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CBomb.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonus.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CExplosion.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CTile.h">
+      <Filter>CBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CSprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Gfx.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\SFont.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CBaseEntity.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CBomb.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonus.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CExplosion.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CTile.cpp">
+      <Filter>CBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CSprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Gfx.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\SFont.c">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008 Tools for Applications
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "src\Game\Game.vcproj", "{433B94ED-B248-4442-899D-C217C81F421D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "src\Editor\Editor.vcproj", "{BFF88EE0-5400-48FF-9A30-34544C615D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433B94ED-B248-4442-899D-C217C81F421D}.Debug|Default.ActiveCfg = Debug|Win32
+		{433B94ED-B248-4442-899D-C217C81F421D}.Debug|Default.Build.0 = Debug|Win32
+		{433B94ED-B248-4442-899D-C217C81F421D}.Release|Default.ActiveCfg = Release|Win32
+		{433B94ED-B248-4442-899D-C217C81F421D}.Release|Default.Build.0 = Release|Win32
+		{BFF88EE0-5400-48FF-9A30-34544C615D2A}.Debug|Default.ActiveCfg = Debug|Win32
+		{BFF88EE0-5400-48FF-9A30-34544C615D2A}.Debug|Default.Build.0 = Debug|Win32
+		{BFF88EE0-5400-48FF-9A30-34544C615D2A}.Release|Default.ActiveCfg = Release|Win32
+		{BFF88EE0-5400-48FF-9A30-34544C615D2A}.Release|Default.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
